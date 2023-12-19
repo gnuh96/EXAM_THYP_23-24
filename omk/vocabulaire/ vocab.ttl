@@ -44,8 +44,8 @@ olyr:resultat a rdf:Property ;
     rdfs:domain olyr:medal ;
     vs:term_status "experimental" .
 
-olyr:participeEvetn a rdf:Property ;
-    rdfs:label "participeEvetn" ;
+olyr:participeEvent a rdf:Property ;
+    rdfs:label "participeEvent" ;
     rdfs:domain olyr:event ;
     vs:term_status "experimental" .
 
