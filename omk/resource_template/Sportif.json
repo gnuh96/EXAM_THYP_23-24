@@ -1,0 +1,71 @@
+{
+    "o:label": "Sportif",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
+            "vocabulary_label": "Resultat Olympiques",
+            "local_name": "nom",
+            "label": "nom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
+            "vocabulary_label": "Resultat Olympiques",
+            "local_name": "prenom",
+            "label": "prenom"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
+            "vocabulary_label": "Resultat Olympiques",
+            "local_name": "dateNais",
+            "label": "dateNais"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
+            "vocabulary_label": "Resultat Olympiques",
+            "local_name": "participeEvent",
+            "label": "participeEvent"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "o:default_lang": null,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
+            "vocabulary_label": "Resultat Olympiques",
+            "local_name": "resultat",
+            "label": "resultat"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
+        "vocabulary_label": "Resultat Olympiques",
+        "local_name": "sportif",
+        "label": "Sportif"
+    }
+}
