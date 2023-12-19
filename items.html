@@ -13,9 +13,10 @@
     <div id="items-container"></div>
 
     <script>
-      function getData() {
-        const apiUrl = "http://localhost:8888/omeka-s-test/api/items";
+      // Définissez l'URL de l'API en tant que constante
+      const apiUrl = "http://localhost:8888/omeka-s-test/api/items";
 
+      function getData() {
         fetch(apiUrl)
           .then((response) => response.json())
           .then((data) => {
