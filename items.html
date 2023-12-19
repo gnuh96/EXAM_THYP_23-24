@@ -8,16 +8,9 @@
   <body>
     <h1>List of Items</h1>
 
-    <div id="items-container"></div>
+    <input type="text" id="searchInput" placeholder="Search by title" />
 
-    <img
-      src="http://localhost:8888/omeka-s-test/api/media/15"
-      alt="Ian Thorpe"
-    />
-    <img
-      src="http://localhost:8888/omeka-s-test/files/square/1f39c23ffb9ad19d41f4236f0ebfcdd424ea4d0d.jpg"
-      alt="Ian Thorpe"
-    />
+    <div id="items-container"></div>
 
     <script>
       function getData() {
@@ -25,7 +18,10 @@
 
         fetch(apiUrl)
           .then((response) => response.json())
-          .then((data) => showItems(data))
+          .then((data) => {
+            window.itemsData = data;
+            showItems(data);
+          })
           .catch((error) => console.error("Error fetching data:", error));
       }
 
@@ -50,8 +46,25 @@
 
         itemsContainer.appendChild(itemList);
       }
+      function filterItems() {
+        const searchInput = document.getElementById("searchInput");
+        const searchTerm = searchInput.value.toLowerCase();
+
+        // Filtre les items en fonction du terme de recherche
+        const filteredItems = window.itemsData.filter((item) =>
+          item["o:title"].toLowerCase().includes(searchTerm)
+        );
+
+        // Efface le contenu actuel et affiche les items filtrés
+        const itemsContainer = document.getElementById("items-container");
+        itemsContainer.innerHTML = "";
+        showItems(filteredItems);
+      }
 
       window.onload = getData;
+      document
+        .getElementById("searchInput")
+        .addEventListener("input", filterItems);
     </script>
   </body>
 </html>
