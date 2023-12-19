@@ -253,17 +253,26 @@
     },
     "o:thumbnail": null,
     "o:title": "Natation",
-    "thumbnail_display_urls": { "large": null, "medium": null, "square": null },
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/ad792f4572e1fb97663dc3ea67516635cb2cca98.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/ad792f4572e1fb97663dc3ea67516635cb2cca98.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/ad792f4572e1fb97663dc3ea67516635cb2cca98.jpg"
+    },
     "o:created": {
       "@value": "2023-12-19T10:13:40+00:00",
       "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
     "o:modified": {
-      "@value": "2023-12-19T10:13:40+00:00",
+      "@value": "2023-12-19T10:27:36+00:00",
       "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
     },
-    "o:primary_media": null,
-    "o:media": [],
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/16",
+      "o:id": 16
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/16", "o:id": 16 }
+    ],
     "o:item_set": [],
     "o:site": [],
     "dcterms:title": [
@@ -380,7 +389,10 @@
         "value_resource_id": 9,
         "value_resource_name": "items",
         "url": null,
-        "display_title": "Natation"
+        "display_title": "Natation",
+        "thumbnail_url": "http://localhost:8888/omeka-s-test/files/square/ad792f4572e1fb97663dc3ea67516635cb2cca98.jpg",
+        "thumbnail_title": "Natation photo.jpeg",
+        "thumbnail_type": "image/jpeg"
       }
     ],
     "olyr:resultat": [
@@ -470,7 +482,10 @@
         "value_resource_id": 9,
         "value_resource_name": "items",
         "url": null,
-        "display_title": "Natation"
+        "display_title": "Natation",
+        "thumbnail_url": "http://localhost:8888/omeka-s-test/files/square/ad792f4572e1fb97663dc3ea67516635cb2cca98.jpg",
+        "thumbnail_title": "Natation photo.jpeg",
+        "thumbnail_type": "image/jpeg"
       }
     ],
     "olyr:resultat": [
@@ -560,7 +575,10 @@
         "value_resource_id": 9,
         "value_resource_name": "items",
         "url": null,
-        "display_title": "Natation"
+        "display_title": "Natation",
+        "thumbnail_url": "http://localhost:8888/omeka-s-test/files/square/ad792f4572e1fb97663dc3ea67516635cb2cca98.jpg",
+        "thumbnail_title": "Natation photo.jpeg",
+        "thumbnail_type": "image/jpeg"
       }
     ],
     "olyr:resultat": [
