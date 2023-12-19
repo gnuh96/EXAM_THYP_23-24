@@ -10,6 +10,15 @@
 
     <div id="items-container"></div>
 
+    <img
+      src="http://localhost:8888/omeka-s-test/api/media/15"
+      alt="Ian Thorpe"
+    />
+    <img
+      src="http://localhost:8888/omeka-s-test/files/square/1f39c23ffb9ad19d41f4236f0ebfcdd424ea4d0d.jpg"
+      alt="Ian Thorpe"
+    />
+
     <script>
       function getData() {
         const apiUrl = "http://localhost:8888/omeka-s-test/api/items";
@@ -28,8 +37,14 @@
         items.forEach((item) => {
           const listItem = document.createElement("li");
 
-          listItem.textContent = `ID: ${item["o_id"]}, Title: ${item["o_title"]}, Media: <img src="${item["o:media"][0]["@id"]}" alt="${item["o:title"]}">`;
+          listItem.innerHTML += ` ID: ${item["o:id"]}, Title: ${item["o:title"]}`;
 
+          if (item["thumbnail_display_urls"]["square"]) {
+            const imageElement = document.createElement("img");
+            imageElement.src = item["thumbnail_display_urls"]["square"];
+            imageElement.alt = item["o:title"];
+            listItem.appendChild(imageElement);
+          }
           itemList.appendChild(listItem);
         });
 
