@@ -1,0 +1,583 @@
+[
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/3",
+    "@type": ["o:Item", "olyr:medal"],
+    "o:id": 3,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/117",
+      "o:id": 117
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/6",
+      "o:id": 6
+    },
+    "o:thumbnail": null,
+    "o:title": "Medal Or",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/a9176ae646163861511fb42021f48130df0e144f.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/a9176ae646163861511fb42021f48130df0e144f.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/a9176ae646163861511fb42021f48130df0e144f.jpg"
+    },
+    "o:created": {
+      "@value": "2023-12-19T10:07:46+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:07:46+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/4",
+      "o:id": 4
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/4", "o:id": 4 }
+    ],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Medal Or"
+      }
+    ],
+    "olyr:rank": [
+      {
+        "type": "literal",
+        "property_id": 218,
+        "property_label": "rank",
+        "is_public": true,
+        "@value": "1"
+      }
+    ],
+    "olyr:medalType": [
+      {
+        "type": "literal",
+        "property_id": 219,
+        "property_label": "medalType",
+        "is_public": true,
+        "@value": "Natation"
+      }
+    ],
+    "@reverse": {
+      "olyr:resultat": [
+        {
+          "@id": "http://localhost:8888/omeka-s-test/api/resources/10",
+          "o:title": "Michael Phelps"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/5",
+    "@type": ["o:Item", "olyr:medal"],
+    "o:id": 5,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/117",
+      "o:id": 117
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/6",
+      "o:id": 6
+    },
+    "o:thumbnail": null,
+    "o:title": "Medal Argent",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/d78c774b420bd955f7deb283eb7835606c506634.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/d78c774b420bd955f7deb283eb7835606c506634.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/d78c774b420bd955f7deb283eb7835606c506634.jpg"
+    },
+    "o:created": {
+      "@value": "2023-12-19T10:08:37+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:08:37+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/6",
+      "o:id": 6
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/6", "o:id": 6 }
+    ],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Medal Argent"
+      }
+    ],
+    "olyr:rank": [
+      {
+        "type": "literal",
+        "property_id": 218,
+        "property_label": "rank",
+        "is_public": true,
+        "@value": "2"
+      }
+    ],
+    "olyr:medalType": [
+      {
+        "type": "literal",
+        "property_id": 219,
+        "property_label": "medalType",
+        "is_public": true,
+        "@value": "Natation"
+      }
+    ],
+    "@reverse": {
+      "olyr:resultat": [
+        {
+          "@id": "http://localhost:8888/omeka-s-test/api/resources/12",
+          "o:title": "Ryan Locht"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/7",
+    "@type": ["o:Item", "olyr:medal"],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/117",
+      "o:id": 117
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/6",
+      "o:id": 6
+    },
+    "o:thumbnail": null,
+    "o:title": "Medal Bronze",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/87bb5f356ae47d89eb836979cc87b7ba8ca3751a.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/87bb5f356ae47d89eb836979cc87b7ba8ca3751a.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/87bb5f356ae47d89eb836979cc87b7ba8ca3751a.jpg"
+    },
+    "o:created": {
+      "@value": "2023-12-19T10:09:24+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:09:24+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/8",
+      "o:id": 8
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/8", "o:id": 8 }
+    ],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Medal Bronze"
+      }
+    ],
+    "olyr:rank": [
+      {
+        "type": "literal",
+        "property_id": 218,
+        "property_label": "rank",
+        "is_public": true,
+        "@value": "3"
+      }
+    ],
+    "olyr:medalType": [
+      {
+        "type": "literal",
+        "property_id": 219,
+        "property_label": "medalType",
+        "is_public": true,
+        "@value": "Natation"
+      }
+    ],
+    "@reverse": {
+      "olyr:resultat": [
+        {
+          "@id": "http://localhost:8888/omeka-s-test/api/resources/14",
+          "o:title": "Ian Thorpe"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/9",
+    "@type": ["o:Item", "olyr:event"],
+    "o:id": 9,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/116",
+      "o:id": 116
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/7",
+      "o:id": 7
+    },
+    "o:thumbnail": null,
+    "o:title": "Natation",
+    "thumbnail_display_urls": { "large": null, "medium": null, "square": null },
+    "o:created": {
+      "@value": "2023-12-19T10:13:40+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:13:40+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": null,
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Natation"
+      }
+    ],
+    "olyr:date": [
+      {
+        "type": "literal",
+        "property_id": 216,
+        "property_label": "date",
+        "is_public": true,
+        "@value": "19/12/2023"
+      }
+    ],
+    "olyr:location": [
+      {
+        "type": "literal",
+        "property_id": 217,
+        "property_label": "location",
+        "is_public": true,
+        "@value": "Piscine Olympique d\u0027Antigone - Montpellier"
+      }
+    ],
+    "@reverse": {
+      "olyr:participeEvent": [
+        {
+          "@id": "http://localhost:8888/omeka-s-test/api/resources/10",
+          "o:title": "Michael Phelps"
+        },
+        {
+          "@id": "http://localhost:8888/omeka-s-test/api/resources/12",
+          "o:title": "Ryan Locht"
+        },
+        {
+          "@id": "http://localhost:8888/omeka-s-test/api/resources/14",
+          "o:title": "Ian Thorpe"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/10",
+    "@type": ["o:Item", "olyr:sportif"],
+    "o:id": 10,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/115",
+      "o:id": 115
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/5",
+      "o:id": 5
+    },
+    "o:thumbnail": null,
+    "o:title": "Michael Phelps",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/ec639352704c22e9daf5dc0e2a04dc9cdd7528e2.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/ec639352704c22e9daf5dc0e2a04dc9cdd7528e2.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/ec639352704c22e9daf5dc0e2a04dc9cdd7528e2.jpg"
+    },
+    "o:created": {
+      "@value": "2023-12-19T10:15:58+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:16:42+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/11",
+      "o:id": 11
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/11", "o:id": 11 }
+    ],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Michael Phelps"
+      }
+    ],
+    "olyr:dateNais": [
+      {
+        "type": "literal",
+        "property_id": 213,
+        "property_label": "dateNais",
+        "is_public": true,
+        "@value": "30/06/1985"
+      }
+    ],
+    "olyr:participeEvent": [
+      {
+        "type": "resource",
+        "property_id": 215,
+        "property_label": "participeEvent",
+        "is_public": true,
+        "@id": "http://localhost:8888/omeka-s-test/api/items/9",
+        "value_resource_id": 9,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Natation"
+      }
+    ],
+    "olyr:resultat": [
+      {
+        "type": "resource",
+        "property_id": 214,
+        "property_label": "resultat",
+        "is_public": true,
+        "@id": "http://localhost:8888/omeka-s-test/api/items/3",
+        "value_resource_id": 3,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Medal Or",
+        "thumbnail_url": "http://localhost:8888/omeka-s-test/files/square/a9176ae646163861511fb42021f48130df0e144f.jpg",
+        "thumbnail_title": "Medal or",
+        "thumbnail_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/12",
+    "@type": ["o:Item", "olyr:sportif"],
+    "o:id": 12,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/115",
+      "o:id": 115
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/5",
+      "o:id": 5
+    },
+    "o:thumbnail": null,
+    "o:title": "Ryan Locht",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/5a66dd970e9569a9700d3b444eaf67d84925c9f7.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/5a66dd970e9569a9700d3b444eaf67d84925c9f7.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/5a66dd970e9569a9700d3b444eaf67d84925c9f7.jpg"
+    },
+    "o:created": {
+      "@value": "2023-12-19T10:19:28+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:19:28+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/13",
+      "o:id": 13
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/13", "o:id": 13 }
+    ],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Ryan Locht"
+      }
+    ],
+    "olyr:dateNais": [
+      {
+        "type": "literal",
+        "property_id": 213,
+        "property_label": "dateNais",
+        "is_public": true,
+        "@value": "03/08/1984"
+      }
+    ],
+    "olyr:participeEvent": [
+      {
+        "type": "resource",
+        "property_id": 215,
+        "property_label": "participeEvent",
+        "is_public": true,
+        "@id": "http://localhost:8888/omeka-s-test/api/items/9",
+        "value_resource_id": 9,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Natation"
+      }
+    ],
+    "olyr:resultat": [
+      {
+        "type": "resource",
+        "property_id": 214,
+        "property_label": "resultat",
+        "is_public": true,
+        "@id": "http://localhost:8888/omeka-s-test/api/items/5",
+        "value_resource_id": 5,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Medal Argent",
+        "thumbnail_url": "http://localhost:8888/omeka-s-test/files/square/d78c774b420bd955f7deb283eb7835606c506634.jpg",
+        "thumbnail_title": "Argent Medal.jpeg",
+        "thumbnail_type": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost:8888/omeka-s-test/api-context",
+    "@id": "http://localhost:8888/omeka-s-test/api/items/14",
+    "@type": ["o:Item", "olyr:sportif"],
+    "o:id": 14,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost:8888/omeka-s-test/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_classes/115",
+      "o:id": 115
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8888/omeka-s-test/api/resource_templates/5",
+      "o:id": 5
+    },
+    "o:thumbnail": null,
+    "o:title": "Ian Thorpe",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8888/omeka-s-test/files/large/1f39c23ffb9ad19d41f4236f0ebfcdd424ea4d0d.jpg",
+      "medium": "http://localhost:8888/omeka-s-test/files/medium/1f39c23ffb9ad19d41f4236f0ebfcdd424ea4d0d.jpg",
+      "square": "http://localhost:8888/omeka-s-test/files/square/1f39c23ffb9ad19d41f4236f0ebfcdd424ea4d0d.jpg"
+    },
+    "o:created": {
+      "@value": "2023-12-19T10:20:42+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2023-12-19T10:20:42+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:primary_media": {
+      "@id": "http://localhost:8888/omeka-s-test/api/media/15",
+      "o:id": 15
+    },
+    "o:media": [
+      { "@id": "http://localhost:8888/omeka-s-test/api/media/15", "o:id": 15 }
+    ],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Ian Thorpe"
+      }
+    ],
+    "olyr:dateNais": [
+      {
+        "type": "literal",
+        "property_id": 213,
+        "property_label": "dateNais",
+        "is_public": true,
+        "@value": "13/10/1982"
+      }
+    ],
+    "olyr:participeEvent": [
+      {
+        "type": "resource",
+        "property_id": 215,
+        "property_label": "participeEvent",
+        "is_public": true,
+        "@id": "http://localhost:8888/omeka-s-test/api/items/9",
+        "value_resource_id": 9,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Natation"
+      }
+    ],
+    "olyr:resultat": [
+      {
+        "type": "resource",
+        "property_id": 214,
+        "property_label": "resultat",
+        "is_public": true,
+        "@id": "http://localhost:8888/omeka-s-test/api/items/7",
+        "value_resource_id": 7,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Medal Bronze",
+        "thumbnail_url": "http://localhost:8888/omeka-s-test/files/square/87bb5f356ae47d89eb836979cc87b7ba8ca3751a.jpg",
+        "thumbnail_title": "Bronze Medal.jpeg",
+        "thumbnail_type": "image/jpeg"
+      }
+    ]
+  }
+]
