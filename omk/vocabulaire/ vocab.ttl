@@ -41,12 +41,14 @@ olyr:dateNais a rdf:Property ;
 
 olyr:resultat a rdf:Property ;
     rdfs:label "resultat" ;
-    rdfs:domain olyr:medal ;
+    rdfs:domain olyr:sportif ;
+    rdfs:range olyr:medal ;
     vs:term_status "experimental" .
 
 olyr:participeEvent a rdf:Property ;
     rdfs:label "participeEvent" ;
-    rdfs:domain olyr:event ;
+    rdfs:domain olyr:sportif ;
+    rdfs:range olyr:event ;
     vs:term_status "experimental" .
 
 olyr:date a rdf:Property ;
