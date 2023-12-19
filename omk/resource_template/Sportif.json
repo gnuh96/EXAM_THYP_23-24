@@ -8,22 +8,10 @@
             "o:is_private": false,
             "o:default_lang": null,
             "data_types": [],
-            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
-            "vocabulary_label": "Resultat Olympiques",
-            "local_name": "nom",
-            "label": "nom"
-        },
-        {
-            "o:alternate_label": null,
-            "o:alternate_comment": null,
-            "o:is_required": false,
-            "o:is_private": false,
-            "o:default_lang": null,
-            "data_types": [],
-            "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
-            "vocabulary_label": "Resultat Olympiques",
-            "local_name": "prenom",
-            "label": "prenom"
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
         },
         {
             "o:alternate_label": null,
@@ -61,11 +49,5 @@
             "local_name": "resultat",
             "label": "resultat"
         }
-    ],
-    "o:resource_class": {
-        "vocabulary_namespace_uri": "https:\/\/olympic.univ-paris8.fr\/olyr#",
-        "vocabulary_label": "Resultat Olympiques",
-        "local_name": "sportif",
-        "label": "Sportif"
-    }
+    ]
 }

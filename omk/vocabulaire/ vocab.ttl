@@ -24,16 +24,6 @@ olyr:medal a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-olyr:nom a rdf:Property ;
-    rdfs:label "nom" ;
-    rdfs:domain olyr:sportif, olyr:event, olyr:medal ;
-    vs:term_status "experimental" .
-
-olyr:prenom a rdf:Property ;
-    rdfs:label "prenom" ;
-    rdfs:domain olyr:sportif ;
-    vs:term_status "experimental" .
-
 olyr:dateNais a rdf:Property ;
     rdfs:label "dateNais" ;
     rdfs:domain olyr:sportif ;
